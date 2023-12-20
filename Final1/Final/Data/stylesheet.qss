@@ -1,0 +1,112 @@
+QScrollBar:vertical {
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+QScrollBar::handle:vertical {
+    width:8px;
+    background:#808080;
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::handle:vertical:hover {
+    width:8px;
+    background:#696969;
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-line:vertical {
+    height:9px;width:8px;
+    border-image:url("Images/3.png");
+    subcontrol-position:bottom;
+}
+
+QScrollBar::sub-line:vertical {
+    height:9px;width:8px;
+    border-image:url("Images/1.png");
+    subcontrol-position:top;
+}
+
+QScrollBar::add-line:vertical:hover {
+    height:9px;width:8px;
+    border-image:url("Images/4.png");
+    subcontrol-position:bottom;
+}
+
+QScrollBar::sub-line:vertical:hover {
+    height:9px;width:8px;
+    border-image:url("Images/2.png");
+    subcontrol-position:top;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical {
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+
+QWidget {
+    background:#222222;
+}
+
+QPushButton {
+    border:0px solid #000000;
+    border-radius:10px;
+}
+
+QPushButton::hover {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+QPushButton::pressed {
+    background-color:#D3D3D3;
+}
+
+QLabel {
+    border:0px;
+    border-radius:10px;
+}
+
+QStatusBar {
+    color:white; 
+}
+
+QToolButton:hover {
+    border:0px;
+    border-radius:10px;
+    background:rgba(255,255,255,0.1);
+}
+
+QSlider {
+    background:transparent;
+}
+
+QSlider::groove:horizontal { 
+	background-color: gray;
+	border: 0px solid #424242; 
+	height: 5px; 
+	border-radius: 6px;
+}
+
+QSlider::handle:horizontal { 
+	background-color: #ccff00; 
+	border: 2px solid black; 
+	width: 16px; 
+	height: 20px; 
+	line-height: 20px; 
+	margin-top: -8px; 
+	margin-bottom: -8px; 
+	border-radius: 10px; 
+}
+
+QSlider::add-page:horizontal {
+    background: gray;
+}
+
+QSlider::sub-page:horizontal {
+    background: #111111;
+}
